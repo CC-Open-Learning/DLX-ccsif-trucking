@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/scroll-bar.uss?fileID=7433441132597879392&amp;guid=2019d42daa237f441a1d2a2f1c78ea63&amp;type=3#scroll-bar" />
+    <ui:VisualElement name="ProgressIndicator" class="grow progress-v1" style="width: auto; height: 750px;">
+        <ui:ScrollView mouse-wheel-scroll-size="1000" name="ScrollView" class="ccsif-scroll-bar">
+            <ui:VisualElement name="CategoryHolder" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

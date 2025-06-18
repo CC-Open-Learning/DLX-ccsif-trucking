@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482575247a802f34ca94907d2adb078f, type: 3}
+  m_Name: FCLightsBrokenGroup
+  m_EditorClassIdentifier: 
+  SelectCount: 2
+  BrokenStates:
+  - {fileID: 11400000, guid: 993ead42d36af7f479adcc31b37aee3b, type: 2}
+  - {fileID: 11400000, guid: 570c147d92c5da94a892122d39aace5e, type: 2}
+  - {fileID: 11400000, guid: dbed6b91a086a4a4bb394f14c29d9be6, type: 2}
+  - {fileID: 11400000, guid: d676e978d8d2338489cecd015c3f3663, type: 2}

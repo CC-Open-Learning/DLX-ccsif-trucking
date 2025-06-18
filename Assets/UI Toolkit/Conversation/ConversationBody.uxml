@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/UI%20Toolkit/Conversation.uss?fileID=7433441132597879392&amp;guid=9e4af09a2cb0d1b48b4ed7fa1636be23&amp;type=3#Conversation" />
+    <ui:VisualElement name="MessageBody" class="flex-row p-12 mt-8 mb-8 grow">
+        <ui:VisualElement name="Left" class="align-items-end pr-8 w-10">
+            <ui:VisualElement name="imageBox" class="speaker-image">
+                <ui:VisualElement name="iconBorder" class="br-25 bc-yellow-2 bw-3 w-100 h-100 p-4">
+                    <ui:VisualElement name="speakerIcon" class="grow" style="background-image: resource(&apos;Images/Toolbar/SettingIcon_Sprite&apos;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" class="align-items-start w-90 pl-16 pr-16">
+            <ui:Label tabindex="-1" text="Speaker&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Speaker" class="fs-20 bold p-0 m-0 speaker-name font-white" />
+            <ui:Label tabindex="-1" text="Message" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" name="Message" class="general-10 br-tr-25 br-bl-25 br-br-25 p-12 fs-24 text-wrap" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

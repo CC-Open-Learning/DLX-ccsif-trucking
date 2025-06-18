@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ProgressIndicator" src="project://database/Assets/ProgressIndicator.uxml?fileID=9197481963319205126&amp;guid=8737581a9fb446146baadf3709de35ff&amp;type=3#ProgressIndicator" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <ui:GroupBox focusable="true" name="Background" class="grow p-0 m-0" style="background-color: rgba(0, 0, 0, 0.8);">
+        <ui:GroupBox name="GroupBox" focusable="true" class="align-items-center justify-center grow">
+            <ui:VisualElement name="outerBox" class="flex-row br-20 w-90 h-90" style="background-color: rgb(99, 111, 110);">
+                <ui:GroupBox name="innerBox" class="grow flex-row general-1 m-0 p-0 br-bl-15 br-br-15 mt-24 pt-36 pb-36" style="width: 680px;">
+                    <ui:GroupBox name="LeftBox" class="m-0 p-0 ml-24 mr-24 mt-12 mb-12 pl-24 pr-24 pb-12 pt-12 justify-space-around">
+                        <ui:GroupBox name="TopBox" class="m-0 p-0">
+                            <ui:VisualElement name="ProgressIndicator" class="progress-v3 br-20" style="height: 548px;">
+                                <Kamgam.UIToolkitGlow.Glow name="Glow" width-left="-1" width="1" outer-color="#FFCD2900" inner-color="#FFCD29BF" split-width="true" width-right="3.5" width-bottom="6.5" width-top="-1" overlap-width="0" class="grow br-20">
+                                    <ui:VisualElement name="ProgressContainer" class="pt-48 grow progress-v3-container">
+                                        <ui:Label tabindex="-1" text="Results" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="fs-40 fw-700 progress-v3-title-label" />
+                                        <ui:VisualElement name="Info" class="progress-v3-info" style="padding-top: 32px;">
+                                            <ui:VisualElement name="Top" class="pb-16">
+                                                <ui:Label tabindex="-1" text="Problems Fixed" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TaskTitle" class="fw-400 fs-20 progress-v3-task-title m-0 p-0 mb-16" />
+                                                <ui:Label tabindex="-1" text="0 out of 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FixedLabel" class="fw-900 fs-36 progress-v3-task-progress-label m-0 p-0" />
+                                            </ui:VisualElement>
+                                            <ui:VisualElement name="Divider" class="w-100 progress-v3-info-divider" />
+                                            <ui:VisualElement name="Middle" class="pt-20 pb-16">
+                                                <ui:Label tabindex="-1" text="Problems Missed" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TaskTitle" class="fw-400 fs-20 progress-v3-task-title m-0 p-0 mb-16" />
+                                                <ui:Label tabindex="-1" text="0 out of 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MissedLabel" class="fw-900 fs-36 progress-v3-task-progress-label m-0 p-0" />
+                                            </ui:VisualElement>
+                                            <ui:VisualElement name="Divider" class="w-100 progress-v3-info-divider" />
+                                            <ui:VisualElement name="Bottom" class="grow pt-20">
+                                                <ui:Label tabindex="-1" text="Inspection Time" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TimeRunningLabel" class="fs-20 fw-400 progress-v3-time-title-label m-0 p-0 mb-24" />
+                                                <ui:Label tabindex="-1" text="0 hr 00 mins" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ElapsedTimeLabel" class="fs-40 fw-900 progress-v3-time-elapsed-label m-0 p-0" />
+                                            </ui:VisualElement>
+                                        </ui:VisualElement>
+                                    </ui:VisualElement>
+                                </Kamgam.UIToolkitGlow.Glow>
+                            </ui:VisualElement>
+                        </ui:GroupBox>
+                        <ui:GroupBox name="BottomBox" class="p-0 m-0">
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="playAgainBtn" text="Play Again" class="bw-2 bc-general-12 button-primary button button-large" />
+                        </ui:GroupBox>
+                    </ui:GroupBox>
+                    <ui:GroupBox name="RightBox" class="grow ml-24 mr-24 mt-12 mb-12 pb-12 pt-12 pl-24 pr-24">
+                        <ui:Instance template="ProgressIndicator" name="ProgressIndicator" />
+                    </ui:GroupBox>
+                </ui:GroupBox>
+                <ui:VisualElement name="Outerlayeroverlay" class="absolute" style="background-image: url(&apos;project://database/Assets/Images/Icons/UI_Panel_Corner_Sprite.png?fileID=2800000&amp;guid=f53723948f7138d418aa753ccde131c4&amp;type=3#UI_Panel_Corner_Sprite&apos;); height: 70px; width: 475px;" />
+                <ui:Label text="Inspection Results" display-tooltip-when-elided="true" name="inspectionResults" class="absolute text-align-middle-left fw-400 bold fs-32" style="height: 39px; width: 202px; top: 8px; left: 20px; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

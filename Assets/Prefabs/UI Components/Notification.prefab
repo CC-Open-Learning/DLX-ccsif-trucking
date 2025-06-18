@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &111034537848079591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6947286624220529871}
+  - component: {fileID: 8845925905289451406}
+  - component: {fileID: 7655981139597497482}
+  m_Layer: 0
+  m_Name: Notification
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6947286624220529871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111034537848079591}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.337428, y: -0.48530814, z: 11.177602}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8845925905289451406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111034537848079591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 9a8286b1731dac54ea07913493e287ce, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: ef98a94ccb675354c8ce206977612e00,
+    type: 3}
+  m_SortingOrder: 0
+--- !u!114 &7655981139597497482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111034537848079591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8461f74d94bbc544991b9cfe0458adf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 0.75
+  solidDuration: 2
+  translateDirection: -5
+  successIcon: {fileID: 21300000, guid: 68eaff3cfec93b64bbfdca5cff463c7a, type: 3}
+  errorIcon: {fileID: 21300000, guid: 269d7305d8a42854389f3c91be099908, type: 3}
+  infoIcon: {fileID: 21300000, guid: 5f825c820f64d014d931b26a69754633, type: 3}
+  OnNotificationShown:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNotificationHidden:
+    m_PersistentCalls:
+      m_Calls: []
+  customIcon: {fileID: 0}
+  customBackgroundColour: {r: 0, g: 0, b: 0, a: 1}
+  customTextColour: {r: 1, g: 1, b: 1, a: 1}

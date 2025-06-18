@@ -1,0 +1,46 @@
+:root {
+    --dark-overlay-color: rgba(0, 0, 0, 0.8);
+	--header-color: #636F6E;
+	--text-white: #ffffff;
+}
+
+.background-dark-overlay {
+	background-color: var(--dark-overlay-color);
+}
+
+.header-color {
+	background-color : var(--header-color);
+}
+
+.header-size {
+	height: 30px;
+}
+
+.header-image-size{
+	width: 475px;
+	height: 70px;
+}
+
+.header-text{
+	width: 200px;
+	height: 40px;
+    left: 20px;
+    top: 8px;
+}
+
+.speaker-image{
+	width: 80px;
+	height: 80px;
+}
+
+.speaker-name{
+	height: 30px;
+}
+
+.font-white{
+	color: var(--text-white);
+}
+
+.right-dialog-border{
+	border-radius: 25px 0px 25px 25px;
+}

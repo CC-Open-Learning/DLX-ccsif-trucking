@@ -1,0 +1,5 @@
+.stopwatch-label {
+    -unity-font-definition: var(--lato-black);
+    color: var(--timer-countdown-text-colour);
+    font-size: 72px;
+}

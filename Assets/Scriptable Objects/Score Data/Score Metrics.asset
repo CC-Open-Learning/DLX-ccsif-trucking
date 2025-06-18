@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bafc13495353c142bb48df35b17c7c6, type: 3}
+  m_Name: Score Metrics
+  m_EditorClassIdentifier: 
+  InspectionPointIncrement: 5
+  StartingStopwatchTime: 26
+  StopwatchRewardMultiplier: 3
+  StopwatchPenaltyIncrement: 10
+  StopwatchPenaltyIncrementSize: 15
+  RoadChoicePointIncrement: 20
+  SuccessEndingMinimum: 150

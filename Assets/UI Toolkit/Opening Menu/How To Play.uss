@@ -1,0 +1,39 @@
+.tutorial-parent {
+    width: 1200px;
+    height: 700px;
+}
+
+.tutorial-group {
+    width: 300px;
+    height: 200px;
+}
+
+.tutorial-group-label {
+    color: white;
+    white-space: normal;
+    -unity-text-align: upper-center;
+    width: 300px;
+    height: 60px;
+}
+
+.tutorial-group-image-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.background-white-grey {
+    background-color: rgb(230, 224, 233);
+}
+
+.background-cyan {
+    background-color: rgb(97, 109, 108);
+}
+
+.font-white {
+    color: white;
+}
+
+.r-25 {
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482575247a802f34ca94907d2adb078f, type: 3}
+  m_Name: DSCWheelsBrokenGroup
+  m_EditorClassIdentifier: 
+  SelectCount: 2
+  BrokenStates:
+  - {fileID: 11400000, guid: 28614740a18edc24cb01fd39d70f4b43, type: 2}
+  - {fileID: 11400000, guid: e8ef08772cc300746ad8703c0152c7b0, type: 2}
+  - {fileID: 11400000, guid: 468335a964eb33f42b331a7e77974941, type: 2}
+  - {fileID: 11400000, guid: 6380cea11839fcc44ae0b2a4510c7b2f, type: 2}
+  - {fileID: 11400000, guid: 2252d506c72f63340ae47bb0325488e2, type: 2}
+  - {fileID: 11400000, guid: cda89dce83197d74cb3c2f14028c3ce6, type: 2}
+  - {fileID: 11400000, guid: 5b93b26656768ae419b55836be138e78, type: 2}
+  - {fileID: 11400000, guid: b84a00a348ab6aa4bae26e3a8fba8f3a, type: 2}
+  - {fileID: 11400000, guid: 3140732ed6e6df9488eae40ac3153741, type: 2}

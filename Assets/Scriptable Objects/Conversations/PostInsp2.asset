@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac01648588f05be499cbbd162107a52a, type: 3}
+  m_Name: PostInsp2
+  m_EditorClassIdentifier: 
+  PlayerResponses:
+  - '[Again? I already inspected the truck yesterday.]'
+  - '[You got it, boss!]'
+  ManagerReplies:
+  - Yes, again. You are meant to inspect it before every trip. You never know what
+    you might have missed or if something broke while you were driving unless you
+    check every time!
+  - Always remember to check the truck before heading out. You might have missed
+    something last time, and sometimes things you had fixed can get broken again
+    while driving too.

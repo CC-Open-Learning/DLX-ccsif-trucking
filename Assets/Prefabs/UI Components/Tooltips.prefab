@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &661925972283708533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364090206375076616}
+  m_Layer: 0
+  m_Name: Tooltips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364090206375076616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661925972283708533}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.430009, y: -1.492867, z: -9.954891}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2198341352767368498}
+  - {fileID: 1600895171014094398}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2652676028302803055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 364090206375076616}
+    m_Modifications:
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.8901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.42070603
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.886298
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053651646551241128, guid: 5e202bfbc692e2046bb39bbde369dc87,
+        type: 3}
+      propertyPath: m_Name
+      value: 3D Tooltip
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e202bfbc692e2046bb39bbde369dc87, type: 3}
+--- !u!4 &1600895171014094398 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3668102070327586385, guid: 5e202bfbc692e2046bb39bbde369dc87,
+    type: 3}
+  m_PrefabInstance: {fileID: 2652676028302803055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3678909102608698379
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 364090206375076616}
+    m_Modifications:
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.8901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.42070603
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.886298
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971910897804531376, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+        type: 3}
+      propertyPath: m_Name
+      value: UI Tooltip
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f83b621c63c4f134b9e598a7da0eb1e3, type: 3}
+--- !u!4 &2198341352767368498 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3282015298511790393, guid: f83b621c63c4f134b9e598a7da0eb1e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3678909102608698379}
+  m_PrefabAsset: {fileID: 0}

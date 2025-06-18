@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 771cdf3c946670e4e9547bc1a83753dc, type: 3}
+  m_Name: ScenarioAModuleA
+  m_EditorClassIdentifier: 
+  BrokenStateSelectors:
+  - {fileID: 11400000, guid: 6bb555b8a41469847ac57a4c75b73707, type: 2}
+  - {fileID: 11400000, guid: c4fdc1e774eeefd4791201592e708829, type: 2}
+  - {fileID: 11400000, guid: a91dd009e3850004fa4ed65c66ad0d44, type: 2}
+  - {fileID: 11400000, guid: 833da182a57f6b841a9d475847b2956b, type: 2}
+  - {fileID: 11400000, guid: 4da4e532bc193e345b6341e30c68411c, type: 2}
+  - {fileID: 11400000, guid: 2ff295c6dcb5c054aa76d3a1ab4a6d8b, type: 2}
+  - {fileID: 11400000, guid: b271a9c25e575b444b280735520008bb, type: 2}
+  - {fileID: 11400000, guid: 4c3ba16abcfe7204fb639feed0a44ffa, type: 2}
+  - {fileID: 11400000, guid: bc524c30b89f1b245818a13dcd0e2f64, type: 2}
+  - {fileID: 11400000, guid: 49fa7ef7269fa5c4d94d0bf3c582d2c4, type: 2}
+  - {fileID: 11400000, guid: f69b9b71e5e3c264bb82f302c1aa300a, type: 2}
+  - {fileID: 11400000, guid: e5cc0a185dd7c1941a3f953300b4b4b7, type: 2}
+  - {fileID: 11400000, guid: 1eb956f814f631c49b2358c34f7315be, type: 2}
+  - {fileID: 11400000, guid: 3274eb6ee5e916048a3ec94e0238a77b, type: 2}
+  - {fileID: 11400000, guid: 9ff8ea223887e5144ad0796057f9ee26, type: 2}
+  - {fileID: 11400000, guid: d5432b501d0227c46831c3f3e84d7715, type: 2}

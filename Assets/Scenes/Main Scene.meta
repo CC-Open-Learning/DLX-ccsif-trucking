@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Main Scene.meta
+guid: 13c1a4f1762cee642b2b4db5d4b7b0f6
+========
+guid: 57e89d77797b92042b2bbe2ee6373f79
+>>>>>>>> 1802494 (CCT-10 - Added settings menu and toolbar UI):Assets/Images.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

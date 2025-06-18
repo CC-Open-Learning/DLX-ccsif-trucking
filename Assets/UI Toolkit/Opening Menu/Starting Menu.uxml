@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <Style src="project://database/Assets/UI%20Toolkit/Starting%20Menu.uss?fileID=7433441132597879392&amp;guid=fb31c29d668856e4796223f79a10481a&amp;type=3#Starting Menu" />
+    <ui:VisualElement name="Container" class="grow">
+        <ui:VisualElement name="Top" class="grow ml-134 justify-center">
+            <ui:VisualElement name="TitleContainer" class="align-items-center starting-menu-title br-60 general-1">
+                <ui:Label tabindex="-1" text="CCSIF Trucking" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" class="h-128 white-font mt-20 mb-20 ml-70 mr-70 p-0" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Bottom" class="grow">
+            <ui:VisualElement name="ButtonsContainer" class="starting-menu-button-holder br-20 general-1">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="playButton" text="Play" class="bw-2 bc-general-12 button-primary button button-large starting-menu-button mb-11" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="settingsButton" text="Settings" class="bw-2 bc-general-12 button-primary button button-large starting-menu-button mb-11 mt-11" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="howToPlayButton" text="How to Play" class="bw-2 bc-general-12 button-primary button button-large starting-menu-button mt-11" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

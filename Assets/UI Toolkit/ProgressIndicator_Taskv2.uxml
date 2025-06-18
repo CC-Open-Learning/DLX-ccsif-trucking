@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-progress.uss?fileID=7433441132597879392&amp;guid=3c0f4f2f7b301c74d874dbba436322f7&amp;type=3#velcro-progress" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/UI%20Toolkit/InspectionResulsModuleB.uss?fileID=7433441132597879392&amp;guid=7cf02b4d02f48fc4ebb64c87a4de0822&amp;type=3#InspectionResulsModuleB" />
+    <ui:VisualElement name="Task" class="w-100 flex-row align-items-center progress-v1-task p-8 indicator-container-height">
+        <ui:VisualElement name="IconContainer" class="indicator-icon-size" style="flex-grow: 0;">
+            <ui:VisualElement name="Cross" class="grow indicator-icon-size" style="background-image: url(&apos;project://database/Assets/Images/Icons/Cross_Sprite.png?fileID=21300000&amp;guid=53c778503a9fa45429c2d6dbfe6e97b6&amp;type=3#Cross_Sprite&apos;);" />
+            <ui:VisualElement name="Checkmark" class="grow indicator-icon-size" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Images/Icons/Checkmark_Sprite.png?fileID=21300000&amp;guid=ad64827d361d3d645af3eae9fba86a0e&amp;type=3#Checkmark_Sprite&apos;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TaskInfo" class="grow h-100 flex-row align-items-center justify-space-between ml-8 mr-4">
+            <ui:Label tabindex="-1" text="Task 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TaskLabel" class="fw-400 progress-v1-task-label m-0 p-0 mr-48 text-align-middle-left fs-16" />
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScoreLabel" class="fw-400 progress-v1-task-label m-0 p-0 text-align-middle-right fs-16" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482575247a802f34ca94907d2adb078f, type: 3}
+  m_Name: DSCWindowsBrokenGroup
+  m_EditorClassIdentifier: 
+  SelectCount: 1
+  BrokenStates:
+  - {fileID: 11400000, guid: 580eb43e809c8ed46b7e1b63070dd137, type: 2}
+  - {fileID: 11400000, guid: e1b51639ecf367044a2784b1ccd5eff6, type: 2}
+  - {fileID: 11400000, guid: 14c34d23e34ff93419dd2ea29b7ec362, type: 2}

@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/UI%20Toolkit/Conversation.uss?fileID=7433441132597879392&amp;guid=9e4af09a2cb0d1b48b4ed7fa1636be23&amp;type=3#Conversation" />
+    <ui:GroupBox focusable="true" name="Background" class="grow p-0 m-0 background-dark-overlay justify-center align-items-center">
+        <ui:VisualElement name="outerBox" class="flex-row br-20 w-60 header-color">
+            <ui:GroupBox name="innerBox" class="grow general-1 m-0 p-0 br-bl-15 br-br-15 mt-24 pt-36 pb-36 flex-column w-100">
+                <ui:VisualElement name="Header" class="grow shrink w-100 header-size" />
+                <ui:VisualElement name="Content" class="flex-column p-16 grow" />
+                <ui:VisualElement name="Footer" class="justify-center align-items-center flex-row">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="continueBtn" text="Continue" class="bw-2 bc-general-12 button-primary button button-large mt-24" />
+                </ui:VisualElement>
+            </ui:GroupBox>
+            <ui:VisualElement name="Outerlayeroverlay" class="absolute header-image-size" style="background-image: url(&apos;project://database/Assets/Images/Icons/UI_Panel_Corner_Sprite.png?fileID=2800000&amp;guid=f53723948f7138d418aa753ccde131c4&amp;type=3#UI_Panel_Corner_Sprite&apos;);" />
+            <ui:Label text="Inspection Briefing" display-tooltip-when-elided="true" name="InspectionBriefing" class="text-align-middle-left fw-400 bold fs-32 header-text font-white absolute" />
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>

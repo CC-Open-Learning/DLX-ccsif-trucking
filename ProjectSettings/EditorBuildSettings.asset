@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Module A/Module A Scene.unity
+    guid: d97f65defb2b371429fa2472fc8dd068
+  - enabled: 1
+    path: Assets/Scenes/Module B/Module B First Inspection Scene.unity
+    guid: 353be8d795e6b7644854b5b0ba959ab1
+  - enabled: 1
+    path: Assets/Scenes/Module B/Module B First Cutscene Scene.unity
+    guid: 0254bbeacac0bad4d812390cf68ac381
+  - enabled: 1
+    path: Assets/Scenes/Module B/Module B Second Inspection Scene.unity
+    guid: 8937bec8fecca7d4f9aecdb150d0529c
+  - enabled: 1
+    path: Assets/Scenes/Module B/Module B Second Cutscene Scene.unity
+    guid: 56ec1df7fc0bfeb40bbaf2e05b257e97
+  - enabled: 0
+    path: Assets/Scenes/MasterScene.unity
+    guid: 86a2d4b93d4a3d44cb1fc361c8cbf8e3
+  m_configObjects: {}

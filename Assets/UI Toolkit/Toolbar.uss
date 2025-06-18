@@ -1,0 +1,20 @@
+.toolbar-button {
+  transition-property: all;
+  transition-duration: 0.15s;
+}
+
+.toolbar-button:hover > #ContentContainer > #IconContainer > #Image {
+    -unity-background-image-tint-color: var(--toolbar-version-two-selected-color);
+}
+
+.toolbar-button:hover > #ContentContainer > #IconContainer {
+    border-color: var(--toolbar-version-two-selected-color);
+}
+
+.toolbar-button:hover > #ContentContainer > #Text {
+    color: var(--toolbar-version-two-selected-color);
+}
+
+.toolbar-disabled {
+    opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Slider" src="project://database/Assets/VELCRO%20UI/Templates/Slider/Slider.uxml?fileID=9197481963319205126&amp;guid=d161493787370dc449c32fd3187c47a1&amp;type=3#Slider" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-toolbar.uss?fileID=7433441132597879392&amp;guid=ca165599ff3aa4a4895631dfa8a56b80&amp;type=3#velcro-toolbar" />
+    <ui:VisualElement name="ButtonTray" class="toolbar-version-2 bw-0 justify-space-around absolute mr-12 mb-12" style="width: auto; height: auto; right: 0; bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:VisualElement name="Top-Row" class="flex-row justify-center grow p-4 mt-4">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="buttonUp" class="bw-2 bc-general-12 button-primary button button-small m-8">
+                <ui:VisualElement name="arrowIcon" class="grow" style="background-image: url(&apos;project://database/Assets/Images/Icons/Button_Arrow_Up_Sprite.png?fileID=21300000&amp;guid=fd0fffe56a6f3634a997214a9a808d14&amp;type=3#Button_Arrow_Up_Sprite&apos;); -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgb(0, 0, 0); width: 35px; height: 25px; justify-content: flex-end; align-self: center;" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="Bottom-Row" class="flex-row justify-center grow p-4">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="buttonLeft" class="bw-2 bc-general-12 button-primary button button-small m-8">
+                <ui:VisualElement name="arrowIcon" class="grow" style="background-image: url(&apos;project://database/Assets/Images/Icons/Button_Arrow_Left_Sprite.png?fileID=21300000&amp;guid=4c04a583c12b7574092f618923978fda&amp;type=3#Button_Arrow_Left_Sprite&apos;); -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgb(0, 0, 0); width: 30px; height: 30px; justify-content: flex-end; align-self: center;" />
+            </ui:Button>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="buttonDown" class="bw-2 bc-general-12 button-primary button button-small m-8">
+                <ui:VisualElement name="arrowIcon" style="background-image: url(&apos;project://database/Assets/Images/Icons/Button_Arrow_Down_Sprite.png?fileID=21300000&amp;guid=75632466014140047a8be1ea6e4938e6&amp;type=3#Button_Arrow_Down_Sprite&apos;); -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgb(0, 0, 0); width: 35px; height: 25px; justify-content: flex-end; align-self: center;" />
+            </ui:Button>
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="buttonRight" class="bw-2 bc-general-12 button-primary button button-small m-8">
+                <ui:VisualElement name="arrowIcon" style="background-image: url(&apos;project://database/Assets/Images/Icons/Button_Arrow_Right_Sprite.png?fileID=21300000&amp;guid=2097cf0e87e6dc44aa3f0e81a3813985&amp;type=3#Button_Arrow_Right_Sprite&apos;); -unity-background-image-tint-color: rgb(0, 0, 0); -unity-background-scale-mode: scale-and-crop; width: 30px; height: 30px; justify-content: flex-end; align-self: center;" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:Instance template="Slider" name="zoomSlider" class="p-4 mt-4 mb-8">
+            <AttributeOverrides element-name="FillSlider" inverted="false" high-value="0.5" low-value="1" value="1" />
+        </ui:Instance>
+    </ui:VisualElement>
+</ui:UXML>

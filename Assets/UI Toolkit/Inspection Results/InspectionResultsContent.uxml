@@ -1,0 +1,52 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/UI%20Toolkit/scroll-bar.uss?fileID=7433441132597879392&amp;guid=2019d42daa237f441a1d2a2f1c78ea63&amp;type=3#scroll-bar" />
+    <Style src="project://database/Assets/UI%20Toolkit/InspectionResultsModuleB.uss?fileID=7433441132597879392&amp;guid=7cf02b4d02f48fc4ebb64c87a4de0822&amp;type=3#InspectionResultsModuleB" />
+    <ui:VisualElement name="Container" class="flex-row justify-space-between" style="flex-grow: 1;">
+        <ui:VisualElement name="Left" class="justify-end mr-24">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Previous" class="button-secondary-1 button button-small" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Middle" class="grow">
+            <ui:ScrollView mouse-wheel-scroll-size="1000" name="ScrollView" class="ccsif-scroll-bar" style="width: 100%;">
+                <ui:VisualElement class="align-items-center w-100" style="flex-grow: 1;">
+                    <ui:VisualElement name="ScoreDisplay" class="br-5 background-color-grey w-100 align-items-center" style="height: 175px;">
+                        <ui:VisualElement name="Top" class="h-50 w-100 flex-row">
+                            <ui:VisualElement name="Inspections" class="w-30 justify-center pl-12" style="flex-grow: 1;">
+                                <ui:Label tabindex="-1" text="Inspections" parse-escape-sequences="true" display-tooltip-when-elided="true" name="InspectionsTitle" class="fw-400 text-color-white fs-20 mb-0" />
+                                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="InspectionPoints" class="text-color-yellow fs-16 fw-400 mt-0" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="StopwatchTime" class="w-40 justify-center" style="flex-grow: 1;">
+                                <ui:Label tabindex="-1" text="Stopwatch Time" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StopwatchTitle" class="fw-400 text-color-white fs-20 mb-0" />
+                                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StopwatchPoints" class="text-color-yellow fs-16 fw-400 mt-0" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Divider" class="border-color-yellow bw-l-2 mt-8 mb-8" style="flex-grow: 1;" />
+                            <ui:VisualElement name="CurrentScore" class="w-30 justify-space-around pl-8" style="flex-grow: 1;">
+                                <ui:Label tabindex="-1" text="Current Score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CurrentScoreTitle" class="fw-400 text-color-white fs-20" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Divider" class="border-color-white bw-1 w-70" />
+                        <ui:VisualElement name="Bottom" class="h-50 w-100 flex-row">
+                            <ui:VisualElement name="InspectionsMetrics" class="w-30 justify-center pl-12" style="flex-grow: 1;">
+                                <ui:Label tabindex="-1" text="Problems Fixed" parse-escape-sequences="true" display-tooltip-when-elided="true" name="InspectionsSubtitle" class="fw-400 fs-12 text-color-grey" />
+                                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="InspectionMetrics" class="fs-16 fw-400 text-color-white" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="StopwatchTimeMetrics" class="w-40 justify-center" style="flex-grow: 1;">
+                                <ui:Label tabindex="-1" text="Time Remaining" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StopwatchSubtitle" class="fw-400 fs-12 text-color-grey" />
+                                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StopwatchMetrics" class="fw-400 fs-16 text-color-white" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Divider" class="border-color-yellow bw-l-2 mt-8 mb-8" style="flex-grow: 1;" />
+                            <ui:VisualElement name="CurrentScoreMetrics" class="w-30 justify-space-around pl-12" style="flex-grow: 1;">
+                                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CurrentScorePoints" class="fw-400 text-color-yellow fs-16" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="CategoryHolder" class="w-100" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" class="justify-end ml-12">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Next" class="button-primary button button-small" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

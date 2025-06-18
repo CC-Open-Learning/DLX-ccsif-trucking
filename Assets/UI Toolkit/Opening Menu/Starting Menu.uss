@@ -1,0 +1,50 @@
+.starting-menu-button-holder {
+    width: 437px;
+    height: 331px;
+    margin-left: 134px;
+    margin-top: 121px;
+}
+
+.starting-menu-button {
+    width: 393px;
+    height: 81px;
+    font-size: 36px;
+    margin: 22px;
+}
+
+.h-128 {
+    font-size: 128px;
+    -unity-font-definition: var(--font-bold);
+}
+
+.br-60 {
+    border-radius: 60px;
+}
+
+.ml-134 {
+    margin-left: 134px;
+}
+
+.mb-11 {
+    margin-bottom: 11px;
+}
+
+.mt-11 {
+    margin-top: 11px;
+}
+
+.ml-70 {
+    margin-left: 70px;
+}
+
+.mr-70 {
+    margin-right: 70px;
+}
+
+.white-font {
+    color: var(--general-13);
+}
+
+.starting-menu-title {
+    align-self: flex-start;
+}

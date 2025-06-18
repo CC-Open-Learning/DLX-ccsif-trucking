@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/UI%20Toolkit/InspectionResultsModuleB.uss?fileID=7433441132597879392&amp;guid=7cf02b4d02f48fc4ebb64c87a4de0822&amp;type=3#InspectionResultsModuleB" />
+    <ui:VisualElement name="Container" class="flex-row grow">
+        <ui:VisualElement name="Left" class="align-items-center justify-center w-40 mr-8 mb-24 mt-24">
+            <Kamgam.UIToolkitGlow.Glow name="Glow" width-left="-1" width="1" outer-color="#FFCD2900" inner-color="#FFCD29BF" split-width="true" width-right="3.5" width-bottom="6.5" width-top="-1" overlap-width="0" class="grow br-20 h-100 w-100">
+                <ui:VisualElement name="ImageScoreContainer" class="w-100 h-100">
+                    <ui:VisualElement name="RoadImage" class="grow h-60 br-tr-20 br-tl-20" style="background-image: url(&apos;project://database/Assets/Textures/Road%20Choice%20Map/FullRoadChoiceMap_Base.png?fileID=2800000&amp;guid=8e5c61c5cb7f16343a27968edff6b96b&amp;type=3#FullRoadChoiceMap_Base&apos;);" />
+                    <ui:VisualElement name="ScoreText" class="br-bl-20 br-br-20 align-items-center justify-center fs-24 background-color-grey" style="flex-grow: 1;">
+                        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CurrentScore" class="text-color-yellow" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </Kamgam.UIToolkitGlow.Glow>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" class="align-items-center justify-center w-60 justify-space-around ml-8">
+            <ui:VisualElement name="TextFeedbackContainer" class="w-100 h-100">
+                <ui:VisualElement name="TextContainer" class="h-20 header-text-position" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RoadChoiceTitle" class="text-wrap text-color-white text-align-middle-center fs-20" />
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RoadChoiceDescription" class="text-wrap text-color-white text-align-middle-center fs-16" />
+                </ui:VisualElement>
+                <ui:VisualElement name="DamagedPartsContainer" class="br-20 p-8 background-color-grey h-30" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="Damaged Parts" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" class="mt-12 ml-12 text-color-white fs-24" />
+                    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DamagedPartsList" class="ml-12 text-wrap text-color-white fs-16" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Buttons" class="flex-row align-items-center justify-space-around h-30" style="flex-grow: 1;">
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Previous" class="button-secondary-1 button button-small" />
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Next" class="button-primary button button-small" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

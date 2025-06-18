@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Interactions.meta
+guid: 733df070641a93844b424ebb9ac8648a
+========
+guid: 5c661dbe7337de24896a0d1460effb17
+>>>>>>>> efd5bb1 (CCT-33 - Implemented a specific look at for each waypoint):Assets/Scripts/Waypoints.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

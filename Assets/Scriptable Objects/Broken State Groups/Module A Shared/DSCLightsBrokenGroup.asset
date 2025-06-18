@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482575247a802f34ca94907d2adb078f, type: 3}
+  m_Name: DSCLightsBrokenGroup
+  m_EditorClassIdentifier: 
+  SelectCount: 2
+  BrokenStates:
+  - {fileID: 11400000, guid: 231e4afb125ba414f8bdf216ccf4192f, type: 2}
+  - {fileID: 11400000, guid: ca0cf7adfa8cbab438f8037de52f597c, type: 2}
+  - {fileID: 11400000, guid: 2f18a28e7571f5c4ba144d869f71ed01, type: 2}
+  - {fileID: 11400000, guid: 1c5fec6e7cf9e654a8a0df1155e3133c, type: 2}

@@ -1,0 +1,78 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/How%20To%20Play.uss?fileID=7433441132597879392&amp;guid=1e932b4c9c3c8294aacd1d757641b0d0&amp;type=3#How To Play" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <ui:VisualElement name="Canvas" class="grow w-100 justify-center align-items-center">
+        <ui:VisualElement name="HowToPlayMenu" class="br-20 general-1 tutorial-parent">
+            <ui:VisualElement name="Header">
+                <ui:VisualElement name="HeaderEnd" class="br-tr-20 absolute header-end w-100 br-tl-20" />
+                <ui:VisualElement name="HeaderStart" class="pr-32 header-start">
+                    <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" text="How To Play" class="m-0 fw-700 fs-36 header-label pl-32 p-0 grow w-100 text-align-middle-left" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Body" class="grow">
+                <ui:VisualElement name="Top" class="pb-24">
+                    <ui:Label tabindex="-1" text="Trucking Inspection" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="fs-36 bold align-self-center font-white" />
+                    <ui:Label tabindex="-1" text="You have to perform a routine inspection of your truck." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Description" class="fs-28 align-self-center font-white" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Middle" class="flex-row mt-24 mb-12 align-self-center">
+                    <ui:VisualElement name="GroupOne" class="ml-20 mr-20">
+                        <ui:VisualElement name="Container" class="align-self-center br-25 background-cyan tutorial-group-image-200">
+                            <ui:VisualElement name="Image" class="align-self-center background-scale-fit tutorial-group-image-200" style="background-image: url(&apos;project://database/Assets/Images/Icons/Mouse_Look_Sprite.png?fileID=2800000&amp;guid=c41432d7835cd734888acaf643b6cc25&amp;type=3#Mouse_Look_Sprite&apos;);" />
+                        </ui:VisualElement>
+                        <ui:Label tabindex="-1" text="Click and drag your mouse to look around" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="fs-24 align-self-center tutorial-group-label" style="color: rgb(255, 255, 255); white-space: normal; width: 300px; -unity-text-align: upper-center; height: 60px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GroupTwo" class="ml-20 mr-20">
+                        <ui:VisualElement name="Container" class="align-self-center br-25 tutorial-group-image-200 background-cyan">
+                            <ui:VisualElement name="Image" class="align-self-center background-scale-fit tutorial-group-image-200" style="background-image: url(&apos;project://database/Assets/Images/Icons/Arrow_Target_Sprite.png?fileID=2800000&amp;guid=d1b2dda757fdb2b4b8d3020a5f4c5924&amp;type=3#Arrow_Target_Sprite&apos;);" />
+                        </ui:VisualElement>
+                        <ui:Label tabindex="-1" text="Click targets to move" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="fs-24 align-self-center tutorial-group-label" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GroupThree" class="ml-20 mr-20">
+                        <ui:VisualElement name="Container" class="align-self-center br-25 tutorial-group-image-200 background-cyan">
+                            <ui:VisualElement name="Image" class="align-self-center background-scale-fit tutorial-group-image-200" style="background-image: url(&apos;project://database/Assets/Images/Icons/Arrow_Object_Sprite.png?fileID=2800000&amp;guid=3b1fef3cfe3c2ed4683db80da145b004&amp;type=3#Arrow_Object_Sprite&apos;);" />
+                        </ui:VisualElement>
+                        <ui:Label tabindex="-1" text="Click highlighted parts to interact" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="fs-24 align-self-center tutorial-group-label" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GroupFour" class="ml-20 mr-20">
+                        <ui:VisualElement name="Container" class="align-self-center br-25 tutorial-group-image-200 background-cyan">
+                            <ui:VisualElement name="Image" class="align-self-center background-scale-fit tutorial-group-image-200" style="background-image: url(&apos;project://database/Assets/Images/Icons/Map_Sprite.png?fileID=2800000&amp;guid=b515d979592feec4a9d4697cf05e121a&amp;type=3#Map_Sprite&apos;);" />
+                        </ui:VisualElement>
+                        <ui:Label tabindex="-1" text="There are multiple stops along your route" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="fs-24 align-self-center tutorial-group-label" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GroupFive" class="ml-20 mr-20">
+                        <ui:VisualElement name="Container" class="align-self-center br-25 tutorial-group-image-200 background-cyan">
+                            <ui:VisualElement name="Image" class="align-self-center background-scale-fit tutorial-group-image-200" style="background-image: url(&apos;project://database/Assets/Images/Icons/Performance_Sprite.png?fileID=2800000&amp;guid=465f720c5c2bc0f4bbab2bb3f0390487&amp;type=3#Performance_Sprite&apos;);" />
+                        </ui:VisualElement>
+                        <ui:Label tabindex="-1" text="Your performance is tracked as a score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text" class="fs-24 align-self-center tutorial-group-label" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Bottom" class="mt-24 mb-24">
+                    <ui:VisualElement name="Upper" class="pt-12 pb-12 flex-row align-self-center">
+                        <ui:VisualElement name="LeftCircle" class="br-25 grow r-25 mr-20 ml-20 background-white-grey">
+                            <ui:VisualElement name="LeftHighlight" class="grow br-25 yellow-6" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="RightCircle" class="br-25 grow r-25 ml-20 mr-20 background-white-grey">
+                            <ui:VisualElement name="RightHighlight" class="grow br-25 yellow-6" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Lower" class="flex-row justify-center mt-12 mb-24">
+                        <ui:VisualElement name="ButtonOne" class="ml-20 mr-20 align-self-center">
+                            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="NextButton" text="Next &gt;" class="button-primary button button-large" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ButtonTwo" class="ml-20 mr-20 align-self-center">
+                            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                            <ui:Button text="&lt; Previous" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PreviousButton" class="button-secondary-1 button button-large" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ButtonThree" class="ml-20 mr-20 align-self-center">
+                            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="UnderstandButton" text="Yes, I understand!" class="button-primary button button-large" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

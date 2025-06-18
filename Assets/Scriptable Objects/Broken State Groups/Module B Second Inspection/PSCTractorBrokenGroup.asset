@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482575247a802f34ca94907d2adb078f, type: 3}
+  m_Name: PSCTractorBrokenGroup
+  m_EditorClassIdentifier: 
+  SelectCount: 1
+  BrokenStates:
+  - {fileID: 11400000, guid: c214ae0bb7f564943883ced59a874a8d, type: 2}
+  - {fileID: 11400000, guid: 1b85cfd26ff86404b99a154634cebadf, type: 2}
+  - {fileID: 11400000, guid: 8eec5239e742eeb4789e1af0f0294e19, type: 2}
+  - {fileID: 11400000, guid: ad80d7cbc647b6544a9167e9cbea85a9, type: 2}
+  - {fileID: 11400000, guid: dc0a281a4e88b5d4b84fa87d48fb0589, type: 2}
+  - {fileID: 11400000, guid: 481de48df850ffd4a9954716c19f6a58, type: 2}

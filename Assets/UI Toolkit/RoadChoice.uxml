@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <Style src="project://database/Assets/UI%20Toolkit/RoadChoice.uss?fileID=7433441132597879392&amp;guid=58f6d19f251b3d44996c78efe778ea7d&amp;type=3#RoadChoice" />
+    <ui:VisualElement name="Container" class="grow align-items-center justify-space-around">
+        <Kamgam.UIToolkitGlow.Shadow class="align-items-center">
+            <ui:VisualElement name="LabelContainer" class="w-80 text-align-middle-center p-16">
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Question" text="Label" enable-rich-text="true" class="text-color-white text-wrap fs-75" />
+            </ui:VisualElement>
+        </Kamgam.UIToolkitGlow.Shadow>
+        <ui:VisualElement name="Buttons" class="w-100 align-items-center">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResponseOne" class="button button-primary button-extra-wide" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResponseTwo" class="button button-primary button-extra-wide" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

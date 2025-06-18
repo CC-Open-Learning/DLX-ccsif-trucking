@@ -1,0 +1,54 @@
+.header-background-width {
+    width: 360px;
+}
+
+.background-color-grey {
+    background-color: rgb(45, 45, 45);
+}
+
+.text-color-white {
+    color: rgb(255, 255, 255);
+}
+
+.text-color-grey {
+    color: rgb(170, 170, 170);
+}
+
+.text-color-yellow{
+    color: rgb(255, 204, 51);
+}
+
+.border-color-white {
+    border-color: rgb(255, 255, 255);
+}
+
+.border-color-yellow{
+    border-color: rgb(255, 204, 51);
+}
+
+.header-text-position{
+    top: -40;
+}
+
+.dropdown-container-height{
+    height: 45px;
+}
+
+.dropdown-icon-size{
+    height: 24;
+    width: 24;
+}
+
+.dropdown-arrow-size{
+    height: 11;
+    width: 20;
+}
+
+.indicator-container-height{
+    height: 36;
+}
+
+.indicator-icon-size{
+    width: 16;
+    height: 16;
+}

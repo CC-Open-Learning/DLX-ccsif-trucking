@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Images.meta
+guid: 91cde291cc6fdea4e9f5043aad47b455
+========
+guid: 28dd87b0239043a49a179a6b71077b66
+>>>>>>>> efd5bb1 (CCT-33 - Implemented a specific look at for each waypoint):Assets/Prefabs/Navigation.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

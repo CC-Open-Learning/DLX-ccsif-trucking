@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d600e2cbefd42034c9ea38bf0e20ec49, type: 3}
+  m_Name: FirstPreInspectionDialog
+  m_EditorClassIdentifier: 
+  DialogSegments:
+  - {fileID: 11400000, guid: 54042630f362ba34d87e6ecc63d7cb7c, type: 2}
+  - {fileID: 11400000, guid: 7b31d74b7ae463346b8c1093160a8b6d, type: 2}
+  - {fileID: 11400000, guid: bba0d8ad898ec5f4a8d5ecb84dc36ea8, type: 2}
+  - {fileID: 11400000, guid: bf432c8972b51f74cac38753c2af0dfd, type: 2}
+  - {fileID: 11400000, guid: 4389fdb885e8dcf4dbb17ed32785b23b, type: 2}

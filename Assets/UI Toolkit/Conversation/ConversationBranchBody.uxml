@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/UI%20Toolkit/Conversation.uss?fileID=7433441132597879392&amp;guid=9e4af09a2cb0d1b48b4ed7fa1636be23&amp;type=3#Conversation" />
+    <ui:VisualElement name="MessageBody" class="p-12 mt-8 mb-8 grow flex-column align-items-end">
+        <ui:VisualElement name="Top" class="pl-16 pr-16 w-100 align-items-end">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionOneBtn" text="Option One" class="bw-2 bc-general-12 button-primary button button-large mt-24 w-60" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Bottom" class="pl-16 pr-16 w-100 align-items-end">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionTwoBtn" text="Option Two" class="bw-2 bc-general-12 button-primary button button-large mt-24 w-60" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

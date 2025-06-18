@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Settings/SpriteImporter.preset.meta
+guid: fb9fd5a735db9c747885d5afd924f86b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2655988077585873504
+========
+guid: 88ecb3039f93bf343a7f1197840971be
+PrefabImporter:
+  externalObjects: {}
+>>>>>>>> efd5bb1 (CCT-33 - Implemented a specific look at for each waypoint):Assets/Prefabs/Navigation/Point Click Navigation Variant.prefab.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
